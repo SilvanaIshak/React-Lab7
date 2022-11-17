@@ -70,7 +70,7 @@ const Dashboard = () => {
 
 
             <div className="Post">
-                <Posts posts={postsState} />
+                <Posts posts={postsState} display={setPostDetails} />
             </div>
             <div>
                 <input

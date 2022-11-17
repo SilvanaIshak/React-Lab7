@@ -1,8 +1,8 @@
 import Post from "../../components/Post/Post"
 
-const Posts = (props) => { 
+const Posts = (props) => {
 
-    const posts = props.posts.map(posts=> {
+    const posts = props.posts.map(posts => {
         return <Post
             title={posts.title}
             author={posts.author}
